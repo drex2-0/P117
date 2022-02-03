@@ -1,0 +1,28 @@
+ h1
+ {
+     font-family: monospace;
+     margin-left: 120px;
+ }
+ #show
+ {
+     float: right;
+     margin-right: 20px;
+ }
+ canvas
+ {
+     border: 5px dashed gold;
+     border-radius: 20px;
+     animation-name: example;
+    animation-duration: 2s;
+    margin-top: 50px;
+    animation-iteration-count: infinite;
+ }
+ @keyframes example
+ {
+     from{box-shadow: aqua 1px 1px 38px;}
+     to{box-shadow: rgb(255, 251, 0) 1px 1px 38px;}
+ }
+ p{
+     padding-top: 10px;
+     font-size: 25px;
+ }
